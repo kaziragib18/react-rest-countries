@@ -11,7 +11,7 @@ const Countries = () => {
       }, [])
       return (
             <div>
-                  <h1>Number of Countries: {countries.length}</h1>
+                  <h1 className="text-white mt-4">Number of Countries: {countries.length}</h1>
                   {/* {
                         countries.map(country =>console.log(country))
                   } */}
